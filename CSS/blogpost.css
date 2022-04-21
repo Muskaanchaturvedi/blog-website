@@ -1,0 +1,32 @@
+.post-img img{
+    width: 100%;
+}
+.post-img{
+    height: 415px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogpost-metadata{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+.blogpost-metadata div{
+    margin: 5px 0;
+}
+.name{
+    font-weight: bolder;
+    font-size: 24px;
+    color: rgb(59, 56, 56);
+}
+.socialmedia{
+    padding:0 16px;
+}
